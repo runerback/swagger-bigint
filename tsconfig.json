@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "composite": true,
+        "declaration": true,
+        "declarationMap": true,
+        "esModuleInterop": true,
+        "lib": [
+            "es6"
+        ],
+        "module": "CommonJS",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "sourceMap": true,
+        "strict": true,
+        "target": "es6",
+        "outDir": "./dist",
+        "types": [
+            "node"
+        ]
+    }
+}

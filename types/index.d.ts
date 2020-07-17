@@ -1,0 +1,1 @@
+/// <reference path="json-bigint/index.d.ts" />

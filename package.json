@@ -1,0 +1,25 @@
+{
+    "name": "swagger-bigint",
+    "version": "1.0.0",
+    "main": "index.js",
+    "types": "./dist/index.d.ts",
+    "author": "runerback",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:runerback/swagger-bigint-parsing.git"
+    },
+    "scripts": {
+        "build": "tsc -b .",
+        "build:compile": "yarn build && webpack"
+    },
+    "devDependencies": {
+        "@types/node": "^14.0.5",
+        "typescript": "^3.9.3",
+        "webpack": "^4.43.0",
+        "webpack-cli": "^3.3.12"
+    },
+    "dependencies": {
+        "json-bigint": "^1.0.0"
+    }
+}
