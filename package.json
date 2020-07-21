@@ -11,7 +11,8 @@
     },
     "scripts": {
         "build": "tsc -b .",
-        "build:compile": "yarn build && webpack"
+        "build:compile": "yarn build && webpack",
+        "start": "yarn build && node ./dist/index.js"
     },
     "devDependencies": {
         "@types/node": "^14.0.5",
@@ -20,6 +21,6 @@
         "webpack-cli": "^3.3.12"
     },
     "dependencies": {
-        "json-bigint": "^1.0.0"
+        "json-bigint": "https://github.com/runerback/json-bigint/tarball/give-me-an-object-with-parse"
     }
 }

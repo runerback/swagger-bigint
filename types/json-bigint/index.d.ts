@@ -49,13 +49,7 @@ declare module "json-bigint" {
         stringify(value: any, replacer?: (number | string)[] | null, space?: string | number): string;
     }
 
-    function JSONbig(options: IJSONbigOptions): IJSONbig;
-
-    namespace JSONbig {
-        function parse(text: string, reviver?: (this: any, key: string, value: any) => any): any;
-        function stringify(value: any, replacer?: (this: any, key: string, value: any) => any, space?: string | number): string;
-        function stringify(value: any, replacer?: (number | string)[] | null, space?: string | number): string;
-    }
+    function JSONbig(options?: IJSONbigOptions): IJSONbig;
 
     export = JSONbig;
 }
